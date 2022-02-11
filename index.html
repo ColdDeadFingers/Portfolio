@@ -420,7 +420,7 @@
                 </p>
                 <form
                   id="contact-form"
-                  action="index.html"
+                  action="#"
                   method="post"
                   autocomplete="off"
                   data-netlify = "true"
@@ -543,7 +543,11 @@
         </div>
       </div>
     </div>
-    <script src="assets/js/app.js"></script>
+    <script src="assets/js/app.js">
+      function formReset() {
+  document.getElementById("contact-form").reset();
+}
+    </script>
   </body>
 
 </html>

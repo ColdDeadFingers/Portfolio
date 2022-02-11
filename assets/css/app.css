@@ -66,7 +66,6 @@
   content: "\e60e";
 }
 .ti-settings:before {
-  
 }
 .ti-search:before {
   content: "\e610";
@@ -3834,7 +3833,6 @@ _:-ms-fullscreen,
   display: none;
 }
 .open-options-panel {
-
 }
 .open-options-panel:hover {
   width: 6.5rem;
