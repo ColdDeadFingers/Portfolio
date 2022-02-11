@@ -420,7 +420,6 @@
                 </p>
                 <form
                   id="contact-form"
-                  action="#"
                   method="post"
                   autocomplete="off"
                   data-netlify = "true"
@@ -455,9 +454,9 @@
                   ></textarea>
                   <div class="button-area m-t-5 scroll-animation">
                     <button onclick="formReset" type="submit" class="default-button">
-                      <span class="button-text">Send</span>
+                      <span class="button-text" onclick="formReset">Send</span>
                       <span class="icon-button m-l-2"
-                        ><span class="ti-arrow-right"></span
+                        ><span class="ti-arrow-right" onclick="formReset"></span
                       ></span>
                     </button>
                     <p class="small">* Marked fields are required.</p>
